@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '3.4.4'
+ruby '3.3.0'
 
 ##-- base gems for rails --##
 gem 'rack-cors', '2.0.0', require: 'rack/cors'
 gem 'rails', '~> 7.1'
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', require: false
+gem 'bootsnap', require: falsex
 
 ##-- rails application helper gems --##
 gem 'acts-as-taggable-on'
